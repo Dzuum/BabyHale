@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Baby Hale</string>
+    <string name="baby_wellness">Baby Wellness Oy</string>
+    <string name="copyright">Copyright &#169; 2016 Baby Wellness Oy</string>
+
+    <string name="scan">Skannaa</string>
+    <string name="search">Etsi</string>
+
+    <string name="scanTabTitle">Haku</string>
+    <string name="infoTabTitle">Tietoa</string>
+
+    <string name="alcohol">Alkoholi</string>
+    <string name="tobacco">Tupakka</string>
+    <string name="drugs">Huumeet</string>
+
+    <string name="alcoholInfoTitle">Alkoholi raskauden ja imetyksen aikana</string>
+    <string name="tobaccoInfoTitle">Tupakka raskauden ja imetyksen aikana</string>
+    <string name="drugsInfoTitle">Huumeet raskauden ja imetyksen aikana</string>
+
+    <string name="effectMainTitle">Vaikutukset raskauden ja imetyksen aikana</string>
+
+    <string name="menu_settings">Asetukset</string>
+    <string name="menu_about">Tietoja</string>
+    <string name="menu_scan">Skannaus</string>
+    <string name="menu_text">Tekstihaku</string>
+    <string name="menu_text_to_speech">Lue ääneen</string>
+
+    <string name="scan_error_barcode">Epäkelpo viivakoodi</string>
+    <string name="scan_error_name">Epäkelpo lääkkeen nimi tai Vnr-numero</string>
+
+    <string name="search_scan_help">Aseta viiva viivakoodin päälle</string>
+    <string name="search_text_help">Syötä lääkkeen nimi tai pakkauksesta löytyvä Vnr-numero ja paina Etsi -painiketta</string>
+    <string name="search_text_hint">Nimi tai Vnr-numero</string>
+
+    <string name="tts_data_title">Puuttuva data ääneenlukua varten</string>
+    <string name="tts_data_message">Haluatko asentaa puuttuvan datan? Ilman sitä ääneenluku -toiminto nykyisellä kielellä ei ole käytettävissä.\n\nKäynnistä sovellus uudestaan mahdollisen asennuksen jälkeen.</string>
+    <string name="tts_data_yes">Kyllä</string>
+    <string name="tts_data_no">Ei</string>
+    <string name="tts_data_no_remember">Ei, muista valinta</string>
+    <string name="tts_data_remember_title">Valintasi muistetaan</string>
+    <string name="tts_data_remember_message">Voit asentaa datan myöhemmin painamalla ääneenluku -painiketta.</string>
+
+    <string name="show_full_description">Näytä koko pakkausseloste</string>
+
+    <string name="empty_search">Tyhjä haku</string>
+    <string name="product_not_found">Haulla ei löytynyt tuloksia.\nVarmista, että olet yhteydessä internetiin.</string>
+    <string name="search_results">Hakutulokset:</string>
+
+    <string name="classification_pregnancy">Raskauden luokitus</string>
+    <string name="classification_lactation">Imetyksen luokitus</string>
+    <string name="pregnancy_explanation_title">Raskauden luokituksen selite</string>
+    <string name="lactation_explanation_title">Imetyksen luokituksen selite</string>
+
+    <string name="not_connected">Tarvitset internet-yhteyden ääneen lukemista varten.</string>
+
+    <string name="title_activity_main">@string/app_name</string>
+    <string name="title_product_activity">Lääketiedot</string>
+    <string name="title_activity_settings">Asetukset</string>
+    <string name="title_activity_result_list">Hakutulokset</string>
+    <string name="title_activity_about">Tietoja</string>
+
+    <string name="preferences_general_title">Yleistä</string>
+    <string name="preferences_display_result_title">Tulosten tyyli</string>
+    <string name="preferences_display_result_dialog_title">Valitse tyyli</string>
+    <string-array name="display_result_styles">
+        <item>Tuoteseloste</item>
+        <item>Värikoodi</item>
+    </string-array>
+
+    <string name="dismissText">Sulje</string>
+    <string name="about_title">Tietoa sovelluksesta</string>
+    <string name="about_client_title">Tilaaja</string>
+    <string name="about_developers_title">Tekijät</string>
+    <string name="about_developers">Julia Laurila\nJoona Luodonpää\nMaija Pienimäki</string>
+    <string name="about_licenses_title">Lisenssit</string>
+
+    <string name="alcoholInfoHeader1">Alkoholi ja raskaus</string>
+    <string name="alcoholInfoHeader2">Alkoholi ja imetys</string>
+
+    <string name="tobaccoInfoHeader1">Tupakka ja raskaus</string>
+    <string name="tobaccoInfoHeader2">Tupakka ja imetys</string>
+
+    <string name="drugsInfoHeader1">Huumeet ja raskaus</string>
+    <string name="drugsInfoHeader2">Huumeet ja imetys</string>
+
+    <string name="alcoholInfoText1">Arvioidessa alkoholin vaarallisuutta sikiölle merkittävimmät osatekijät ovat
+        alkoholialtistuksen kesto, alkoholialtistuksen määrä vuorokautta tai viikkoa kohden,
+        alkoholin huippupitoisuus veressä sekä sen syntyyn vaikuttavat tekijät. Tutkimuksissa
+        raskaudenaikaiselle alkoholinkäytölle ei ole voitu määritellä selkeää riskirajaa. Tämän vuoksi
+        alkoholia on parasta olla nauttimatta kokonaan raskauden aikana.
+        \n\nAlkoholin muutamia mahdollisia haittavaikutuksia raskaudenaikaisessa käytössä:
+        \n\n-\tEpämuodostumien syntymisen riski
+        \n-\tRaskauden keskeytymisen vaara raskauden alkuvaiheessa
+        \n-\tLisääntynyt tulehdusriski
+        \n-\tLisääntynyt riski sikiön kasvun hidastumiselle
+        \n-\tTodennäköisempi altistuneisuus aivojen erityyppisille alikehittymisille
+        \n-\tLisääntynyt riski pysyvästä kasvuhäiriöstä ja keskushermostovaurion vaikeuksista:
+        Keskushermoston toimintahäiriö vaihtelee kehitysvammaisuudesta lieviin oppimisvaikeuksiin,
+        joista merkittävämmät ovat tarkkaavaisuushäiriö ja matemaattiset erityisvaikeudet.
+        \n-\tRaskaana olevilla naisilla jo 1–6 viinilasia viikossa alentaa lapsen älykkyyttä pari yksikköä
+        \n-\tÄidin runsas raskaudenaikainen alkoholinkulutus saattaa aiheuttaa lapselle pahimmillaan synnynnäisen kuurosokeuden</string>
+    <string name="alcoholInfoText2">Alkoholin vaikutuksesta imetyksenaikaisessa käytössä on tutkimukseen
+        perustuvaa tietoa melko vähän. Satunnainen ja kohtuullinen alkoholinkäyttö imettävällä äidillä ei ole
+        esteenä imetykselle. Säännöllistä ja humalajuomista tulisi kuitenkin välttää lapsen psyykkisen ja
+        fyysisen turvattomuuden takia sekä varhaisen vuorovaikutukseen kohdentuvien negatiivisten
+        vaikutusten ja hoidon laiminlyönnin riskin takia, jos äiti on vastuussa lapsen hoidosta
+        päihtyneenä.</string>
+
+    <string name="tobaccoInfoText1">Tupakointi voi heikentää naisen hedelmällisyyttä, viivästyttää raskaaksi
+        tulemista ja lisätä riskiä kohdunulkoiseen raskauteen. Odottavan äidin tupakointi vahingoittaa myös sikiötä,
+        koska tupakan haitalliset aineet siirtyvät äidin verenkierrosta napanuoranläpi sikiön verenkiertoon.
+        Nikotiinipitoisuus sikiön veressä voi nousta jopa äidin veren nikotiinipitoisuutta korkeammaksi,
+        koska sikiö ei kykene yhtä hyvin poistamaan nikotiinia verestä.
+        \n\nMuutamia tupakan haittavaikutuksia sikiölle raskauden aikaisessa käytössä:
+        \n\n-\tTupakan hiilimonoksidi heikentää sikiön verenkierron punasolujen hapenkuljetuskapasiteettia, josta seuraa krooninen hapenpuute
+        \n-\tNikotiini supistaa istukan, kohdun ja napanuoran verisuonia, mikä edistää sikiön hapenpuutetta
+        \n-\tSikiön hapenpuute taas heikentää hermoston kehittymistä
+        \n-\tTupakointi lisää riskiä raskaudenaikaiseen verenvuotoon, joka altistaa ennenaikaiselle syntymiselle ja keskenmenolle
+        \n-\tTupakointi lisää riskiä lapsen huulihalkioon, astmaan ja erilaisiin allergioihin
+        \n-\tSynnyttyään lapsi voi kärsiä nikotiinin vierotusoireista, joka voi ilmetä esimerkiksi vapinana</string>
+    <string name="tobaccoInfoText2">Tupakoivan äidin rintamaito sisältää nikotiinia viisi kertaa enemmän kuin mitä äidin
+        verenkierto sisältää. Jos tupakointi tapahtuu sisätiloissa, lapsi saattaa altistua myös
+        passiiviselle tupakoinnille. Tupakoinnin vaikutukset voivat heijastuvat vielä lapsen myöhäisemmässä kehityksessä.
+        \n\nMuutamia tupakan haittavaikutuksia lapselle imetyksen aikaisessa käytössä:
+        \n\n-\tLisääntynyt riski kätkytkuolemaan
+        \n-\tLisääntynyt riski imeväiskuolleisuuteen
+        \n-\tRiski lapsen sormien ja varpaiden vikoihin: sormet ja varpaat voivat puutua, sormia tai varpaita voi olla ylimääräisiä, sormista ja varpaista voi tulla räpylämäisiä
+        \n-\tPassiivisessa tupakoinnissa lapsi altistuu hengitystietulehduksille ja äkilliselle välikorvatulehdukselle
+        \n-\tTupakointiin altistuvien lasten käytöshäiriöt ja keskittymisongelmat ovat yleisempiä
+        \n-\tTupakoinnin uskotaan vaikuttavan lapsen terveydentilaan ja kehitykseen ainakin kymmeneen ikävuoteen asti</string>
+
+    <string name="drugsInfoText1">Huumeita käyttävän äidin raskaus on aina riskiraskaus. Huumeiden käyttö raskauden aikana
+        lisää riskejä muun muassa raskauden ennenaikaisuudella, lapsen pienipainoisuudella ja sikiön kohtukuolemalla.
+        \n\nMuutamia haittavaikutuksia huumausaineiden käytöstä raskauden aikana:
+        \n\n-\tRiski ennenaikaiseen syntymään
+        \n-\tRiski sairastua leukemiaan
+        \n-\tKannabiksen käyttö voi aiheuttaa alhaista syntymäpainoa ja hidastunutta kasvua lapselle
+        \n-\tKognitiivisen kyvyn ja oppimisen heikentyminen lapsen myöhemmällä iällä
+        \n-\tKokaiinin käyttö lisää riskiä keskenmenoon ja ennenaikaiseen syntymään
+        \n-\tAmfetamiinin käyttö voi aiheuttaa sikiön kehityshäiriöitä, sydänvikoja, pienipäisyyttä sekä henkistä jälkeenjääneisyyttä
+        \n-\tAmfetamiini nostaa tulehdusriskiä, riskiä ennenaikaiseen lapsiveden menetykseen sekä ennenaikaiseen synnytykseen
+        \n-\tAmfetamiinin käyttäjältä katoaa näläntunne, joka voi johtaa sikiön aliravitsemukseen: Sikiön aliravitsemuksesta voi seurata kasvun hidastumista
+        \n-\tVastasyntyneillä voi myös olla vierotusoireita huumeaineista</string>
+    <string name="drugsInfoText2">Huumausaineiden vaikuttava aine erittyy äidin maitoon. Äidin imettäessä huumeen
+        vaikuttava aine siirtyy vauvalle, joka voi aiheuttaa haittavaikutuksia lapsen kehityksessä.
+        Esimerkiksi amfetamiinin on osoitettu erittyvän äidinmaitoon, joten äitejä neuvotaan
+        olemaan imettämättä tuolloin.</string>
+
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien.
+        Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit.
+        Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti.
+        Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat.
+        Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede.
+        Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.</string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien.
+        Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit.
+        Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti.
+        Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat.
+        Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede.
+        Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.
+        \n\n\tMauris sed libero. Suspendisse facilisis nulla in lacinia laoreet,
+        lorem velit accumsan velit vel mattis libero nisl et sem.
+        Proin interdum maecenas massa turpis sagittis in, interdum non lobortis vitae massa.
+        Quisque purus lectus, posuere eget imperdiet nec sodales id arcu. Vestibulum elit pede dictum eu,
+        viverra non tincidunt eu ligula.
+        \n\n\tNam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa.
+        Proin in dolor mauris consequat aliquam. Donec ipsum, vestibulum ullamcorper venenatis augue.
+        Aliquam tempus nisi in auctor vulputate, erat felis pellentesque augue nec, pellentesque lectus justo nec erat.
+        Aliquam et nisl. Quisque sit amet dolor in justo pretium condimentum.
+        \n\n\tVivamus placerat lacus vel vehicula scelerisque, dui enim adipiscing lacus sit amet sagittis,
+        libero enim vitae mi. In neque magna posuere, euismod ac tincidunt tempor est. Ut suscipit nisi eu purus.
+        Proin ut pede mauris eget ipsum. Integer vel quam nunc commodo consequat. Integer ac eros eu tellus dignissim viverra.
+        Maecenas erat aliquam erat volutpat. Ut venenatis ipsum quis turpis. Integer cursus scelerisque lorem.
+        Sed nec mauris id quam blandit consequat. Cras nibh mi hendrerit vitae, dapibus et aliquam et magna.
+        Nulla vitae elit. Mauris consectetuer odio vitae augue.</string>
+
+    <string name="pregnancy_class_a">Kontrolloiduissa tutkimuksissa tai suurissa potilasaineistoissa
+        ei ole todettu suurentunutta riskiä epämuodostumille tai suorille tai epäsuorille sikiöhaitoille,
+        kun lääkettä on käytetty raskauden 1. trimesterin aikana. Lisääntynyttä riskiä ei ole
+        todettu liittyvän myöskään raskauden 2. tai 3. trimesterin aikaiseen käyttöön.</string>
+    <string name="pregnancy_class_b">Raskauden aikaisesta käytöstä on vain rajallisesti tietoa ihmisillä
+        eikä kontrolloituja tutkimuksia ole tehty. Epämuodostumien tai suorien tai epäsuorien
+        sikiöhaittojen esiintyvyyden ei ole havaittu lisääntyneen ihmisillä tai eläinkokeissa.</string>
+    <string name="pregnancy_class_c1">Raskauden aikaisesta lääkkeen käytöstä on vain rajallisesti
+        tietoa ihmisillä eikä kontrolloituja tutkimuksia ole tehty tai tutkimusten tulokset ovat ristiriitaisia.
+        Eläinkokeissa on todettu epämuodostumia tai suoria tai epäsuoria sikiöhaittoja tai eläinkokeita ei ole tehty.</string>
+    <string name="pregnancy_class_c2">Epämuodostumien ei ole havaittu lisääntyneen ihmisillä tai
+        eläinkokeissa, mutta (loppu)raskauden aikainen lääkkeen käyttö voi aiheuttaa haittavaikutuksia
+        neonataalikaudella tai lapsuuden aikana.</string>
+    <string name="pregnancy_class_d">Lääkkeen epäillään tai sen on osoitettu aiheuttavan epämuodostumia
+        tai palautumattomia suoria tai epäsuoria sikiöhaittoja. Pääsääntöisesti raskaus on lääkkeen
+        käytön kontraindikaatio. Hyöty voi ylittää mahdolliset haitat tietyissä tapauksissa.</string>
+
+    <string name="lactation_class_a">Lääkettä ei erity kliinisesti merkittäviä määriä äidinmaitoon tai
+        lääkkeen käytöstä imetyksen aikana ei odoteta olevan haittaa imeväiselle, kun lääkettä
+        käytetään terapeuttisilla annoksilla.</string>
+    <string name="lactation_class_b">Lääkkeen erittymisestä äidinmaitoon ei ole tutkimuksia. Imetyksen
+        aikaisen käytön turvallisuudesta on vain rajallista tietoa ihmisillä tai se puuttuu kokonaan.</string>
+    <string name="lactation_class_c">Saatavilla olevan tiedon perusteella lääkettä erittyy äidinmaitoon kliinisesti
+        merkittäviä määriä. Imetyksen aikainen lääkkeen käyttö voi aiheuttaa haittavaikutuksia imeväiselle
+        äidin käyttämillä terapeuttisilla annoksilla. Päätös imetyksestä tulee perustua arvioon imetyksestä
+        saatavien hyötyjen ja lääkkeen käytöstä mahdollisesti aiheutuvien haittojen suhteesta.</string>
+    <string name="lactation_class_d">Imetys on vasta-aiheista lääkkeen käytön aikana. Lääkkeen
+        käyttö imetyksen aikana voi aiheuttaa imeväiselle vakavia haittavaikutuksia.</string>
+</resources>

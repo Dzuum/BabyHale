@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+    </style>
+
+    <style name="PreferenceTheme" parent="PreferenceThemeOverlay">
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <!-- http://www.google.com/design/spec/style/typography.html#typography-styles -->
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="Text.Headline">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text.Headline.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Subheading">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Body1">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Text.Body2">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.AppCompat">
+        <item name="android:background">@color/peach</item>
+
+        <item name="android:textColorPrimary">@color/text_color
+        </item> <!-- Title text & menu text -->
+        <item name="android:textColorSecondary">@color/text_color</item> <!-- Menu icon -->
+    </style>
+
+    <style name="Tab" parent="Widget.Design.TabLayout">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColorPrimary">@color/orange</item> <!-- Selected text -->
+        <item name="android:textColorSecondary">@color/text_color</item> <!-- Other text -->
+
+        <item name="android:actionBarSize">@dimen/tabs_height</item>
+    </style>
+
+    <style name="Tab.Bottom">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColorPrimary">@color/bottom_tabs_selected_text</item> <!-- Selected text -->
+        <item name="android:textColorSecondary">@color/bottom_tabs_unselected_text</item> <!-- Other text -->
+    </style>
+</resources>

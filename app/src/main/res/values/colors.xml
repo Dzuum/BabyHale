@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="peach">#F5E1CE</color>
+    <color name="orange">#E95329</color>
+    <color name="darker_peach">#EEF5E1CE</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#444444</color>
+    <color name="grey">#666666</color>
+
+    <color name="font_dark">#817971</color>
+    <color name="font_light">#FFFFFF</color>
+
+    <color name="text_color">@color/black</color>
+    <color name="activity_background">#FFFFFF</color>
+    <color name="bottom_tabs_background">#EEEEEE</color>
+    <color name="bottom_tabs_background_pressed">#DDEEEEEE</color>
+    <color name="bottom_tabs_selected_text">@color/text_color</color>
+    <color name="bottom_tabs_unselected_text">#BBBBBB</color>
+
+    <!-- http://www.google.com/design/spec/style/color.html#color-color-palette -->
+    <color name="color_primary">#FF5722</color> <!-- 500 -->
+    <color name="color_primary_dark">#E64A19</color> <!-- 700 -->
+    <color name="color_primary_light">#FBE9E7</color> <!-- 50 -->
+
+    <color name="color_accent">#C6FF00</color>
+</resources>

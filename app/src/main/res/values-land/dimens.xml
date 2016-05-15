@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/ -->
+    <dimen name="appbar_height">40dp</dimen>
+    <dimen name="tabs_height">40dp</dimen>
+    <dimen name="scan_fragment_margin">0dp</dimen>
+    <dimen name="appbar_element_margin">12dp</dimen>
+</resources>

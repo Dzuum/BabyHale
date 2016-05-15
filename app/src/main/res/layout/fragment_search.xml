@@ -1,0 +1,56 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fi.babywellness.babyhale.Fragments.SearchFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tabs_height"
+            android:theme="@style/Tab.Bottom"
+            app:tabMaxWidth="0dp"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/orange"
+            app:tabIndicatorHeight="4dp"
+            app:tabBackground="@drawable/bottom_tab_selector" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_above="@id/appBar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" />
+
+
+    <!--
+        android:layout_marginTop="@dimen/scan_fragment_margin"
+        android:layout_marginBottom="@dimen/scan_fragment_margin"
+    -->
+
+
+<!--
+    <fragment
+        android:id="@+id/scanner_fragment"
+        android:name="fi.babywellness.projekti.Fragments.ScanFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:layout_above="@id/appBar_bottom"
+        android:layout_gravity="center"
+        tools:layout="@layout/capture" />
+-->
+</RelativeLayout>

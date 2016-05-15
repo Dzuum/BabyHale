@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="infoTitlesLong">
+        <item>@string/alcoholInfoTitle</item>
+        <item>@string/tobaccoInfoTitle</item>
+        <item>@string/drugsInfoTitle</item>
+    </string-array>
+
+    <string-array name="infoTitlesShort">
+        <item>@string/alcohol</item>
+        <item>@string/tobacco</item>
+        <item>@string/drugs</item>
+    </string-array>
+
+    <string-array name="display_result_values">
+        <item>Text</item>
+        <item>Color</item>
+    </string-array>
+</resources>

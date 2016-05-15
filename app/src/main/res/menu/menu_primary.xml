@@ -1,0 +1,26 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/menu_settings"-->
+        <!--android:title="@string/menu_settings"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/menu_about"-->
+        <!--android:title="@string/menu_about"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/menu_text_to_speech"
+        android:title="@string/menu_text_to_speech"
+        android:icon="@drawable/ic_hearing_black_48dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/menu_about"
+        android:icon="@drawable/ic_info_outline_black_48dp"
+        app:showAsAction="ifRoom" />
+</menu>

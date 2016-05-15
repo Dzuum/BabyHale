@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_background"
+    tools:context="fi.babywellness.babyhale.AboutActivity">
+
+    <include
+        layout="@layout/toolbar_main" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/page_edge_padding"
+            android:layout_marginRight="@dimen/page_edge_padding"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/page_edge_padding"
+                android:layout_marginBottom="@dimen/page_edge_padding"
+                android:text="@string/about_title"
+                style="@style/Text.Headline.Bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_client_title"
+                        style="@style/Text.Body2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/page_edge_padding"
+                        android:text="@string/baby_wellness"
+                        style="@style/Text.Body1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_developers_title"
+                        style="@style/Text.Body2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_developers"
+                        style="@style/Text.Body1"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button_licenses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_licenses_title" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/page_edge_padding"
+                android:layout_marginBottom="@dimen/page_edge_padding"
+                android:text="@string/copyright"
+                style="@style/Text.Body2"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

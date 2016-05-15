@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="scan">Skanna</string>
+    <string name="search">Söka</string>
+
+    <string name="scanTabTitle">Sökning</string>
+    <string name="infoTabTitle">Information</string>
+
+    <string name="alcohol">Alkohol</string>
+    <string name="tobacco">Cigarett</string>
+    <string name="drugs">Narkotikum</string>
+
+    <string name="alcoholInfoTitle">Användning av alkohol vid graviditet och amning</string>
+    <string name="tobaccoInfoTitle">Rökning vid graviditet och amning</string>
+    <string name="drugsInfoTitle">Narkotika vid graviditet och amning</string>
+
+    <string name="effectMainTitle">Påverkan vid graviditet och amning</string>
+
+    <string name="menu_settings">Inställningar</string>
+    <string name="menu_about">Information</string>
+    <string name="menu_scan">Skanna</string>
+    <string name="menu_text">Sök med text</string>
+    <string name="menu_text_to_speech">Lesa högt ut</string>
+
+    <string name="scan_error_barcode">Dålig streckkod</string>
+    <string name="scan_error_name">Dålig medicin namn eller Vnr-nummer</string>
+
+    <string name="search_scan_help">Sätta strecket på streckkod</string>
+    <string name="search_text_help">Mata in medicins namn eller Vnr-numret som hittas pä packeten och dryck Söka-knappen</string>
+    <string name="search_text_hint">Namn tai Vnr-nummer</string>
+
+    <string name="empty_search">Tum sökning</string>
+    <string name="product_not_found">Inga resultater hittat.\nSäkra Internet kontakten.</string>
+    <string name="search_results">Hittat resultater:</string>
+
+    <string name="classification_pregnancy">Graviditets  klassifikation</string>
+    <string name="classification_lactation">Amnings klassifikation</string>
+    <string name="pregnancy_explanation_title">Nyckel för graviditets klassifikation</string>
+    <string name="lactation_explanation_title">Nyckel för amnings klassifikation</string>
+
+    <string name="not_connected">Du behöver en Internet kontakt för högt läsning..</string>
+
+    <string name="title_activity_main">@string/app_name</string>
+    <string name="title_product_activity">Medicin information</string>
+    <string name="title_activity_settings">Inställningar</string>
+    <string name="title_activity_result_list">Söknins resultater</string>
+    <string name="title_activity_about">Information</string>
+
+    <string name="preferences_general_title">Allmän</string>
+    <string name="preferences_display_result_title">Stilen av resultater</string>
+    <string name="preferences_display_result_dialog_title">Väljä stilen</string>
+    <string-array name="display_result_styles">
+        <item>Varudeklaration</item>
+        <item>Färgkod</item>
+    </string-array>
+
+    <string name="dismissText">Släng</string>
+    <string name="about_title">Information av applikation</string>
+    <string name="about_client_title">Tilaaja</string>
+    <string name="about_developers_title">Tekijät</string>
+    <string name="about_licenses_title">Licens</string>
+
+    <string name="alcoholInfoHeader1">Alkohol och graviditet</string>
+    <string name="alcoholInfoHeader2">Alkoholi och amning</string>
+
+    <string name="tobaccoInfoHeader1">Cigarett och graviditet</string>
+    <string name="tobaccoInfoHeader2">Cigarett och amning</string>
+
+    <string name="drugsInfoHeader1">Narkotikum och graviditet</string>
+    <string name="drugsInfoHeader2">Narkotikum och amning</string>
+
+    <string name="alcoholInfoText1">När man värderar hur färligt är alkohol för ett foster det mest
+        märktfulla faktor är att hur långt har alkohol exposition pågått, hur stor är alkohol
+        användnings mängd i dagen eller veckan, alkohols högsta innehål i blod och dens effekt till födelse.
+        I undersökningar om alkohols användning vid graviditet kan man inte bestämma på ett tydligt grinset.
+        Därför det är bättre att inte använda alkohol vid graviditet.
+        \n\nNågra skadliga påverkan, då man använder alkohol vid gravigitet:
+        \n\n-\tRisken för missbildnings.
+        \n-\tRisken för graviditetens avbrott.
+        \n-\tÖkat risk för infektion.
+        \n-\tÖkat risk för fosters minskade tillväxt.
+        \n-\tÖkat risk för permanent tillväxtstörning och central nervösskada svårigheter:
+        centralnervös handlings störningar växlar från handikappning till lindrig inlärnings svårighet,
+        av som de mest märktfulla är uppmärksamhets störning och matematiska svårigheter.
+        \n-\t1-6 glas av vin i en vecka kan minska barns intelligens.
+        \n-\tRiklig alkohol användning vid graviditet kan leda till barns medfödda dövighet och blindhet.</string>
+    <string name="alcoholInfoText2">Undersökningar om alkohols påverkan vid amning finns inte så mycket.
+        Sporadisk och måttlig alkohol användning är inte ett hinder för amning. Vanlig och humle drickning
+        skulle bli undvikt för barns psykiska och fysiska skygdlöshets skull och tidiga negativiska
+        interaktioner och skötsels vanvård riskens skull om föräldrar är ansvarliga av barns skötsel när onykter.</string>
+
+    <string name="tobaccoInfoText1">Rökning kan minska fertilitet, fördröja att bli gravid och öka risken
+        för graviditet utanför livmodern. Rökning skadar också foster eftersom cigarettens färliga ämnen
+        går till fosters blodcirkulation via moderkaka. Nikotin halt i fosters blod kan bli högre
+        än mammas därför att foster kan inte avföra nikotin från blod.
+        \n\nNågra skadliga påverkan för fostret vid rökning under graviditet
+        \n\n-\tCigarettens kolmonoxid minskar fosters blodcirkulations rödcells kapacitet för oxygen cirkulation, som leder till kronisk brist på oxygen.
+        \n-\tNikotin minskar moderkakans, livmoderns och navelsträngs blodkärl, vilket leder till fosters brist på oxygen.
+        \n-\tFosters brist på oxygen leder till nervsystemets utvecklings störningar.
+        \n-\tRökning ökar risk till blödning vilket ökar risken för prematur födsel och missfall.
+        \n-\tEfter födsel barn kan fördra av nikotin abstinenssyndrom som kan förekomma som darrning.</string>
+    <string name="tobaccoInfoText2">Rökande mammas bröstmjölk kan innehålla nikotin fem gånger mer
+        en rökande mammas blodcirkulation. Om man rökar innandöme, barn kan utsätta till passivt
+        rökning. Röknings påverkar kan förekomma i barns senare utveckling.
+        \n\nNågra skadliga påverkan för barn mellan användning vid graviditet:
+        \n\n-\tÖkat risk för plötslig spädbarnsdöd
+        \n-\tÖkat risk för bäbisdödlighet.
+        \n-\tRisken för barns finger- och tå defekter, fingrar och tåar kan somnas, där kan bli extra fingrar eller tåar och fingrar och tåar kan bli nätlika.
+        \n-\tMed passiv rökning kan barn bli utsättas för andnings vånda och plötslig mellanörans infektion.
+        \n-\tBarns, som är utsätta till rökning, beteendens störningar och koncentrations problem är mer vanliga.
+        \n-\tRökning är minskat att påverka på barns hälsotillstånd och växt till barn är tio år gammal.</string>
+
+    <string name="drugsInfoText1">Narkotika användare mammas graviditet är alltid en risk gravdiitet.
+        Användning av narkotika vid graviditet önskar risker till exempel för en prematur födsel,
+        barns litenhet och fosters livmoderdöd.
+        \n\nNågra skadliga påverkan för barn mellan narkotikas användning vid gravdiitet:
+        \n\n-\tRisken för prematur födsel
+        \n-\tRisken för att smittas av leukemi
+        \n-\tAnvändning av cannabis kan leda till en liten födsels vikt och lusig växt för barn
+        \n-\tKognitiv förmågans och inlärnings avtagning senare i livet
+        \n-\tAnvändning av kokain ökar risken för missfall och prematur födsel.
+        \n-\tAnvändning av amfetamin kan leda till fosters utvecklings störningar, hjärtsjukdomar, mikrocefali och mentalt underutveckling
+        \n-\tAmfetamin ökar risken för infektion, prematur lösning av fostervatten och prematur födsel
+        \n-\tMänniskorna som använder amfetamin tappar sin känsla för hunger som kan lida till fosters undernärning: fosters undernärning kan leda till utvecklings bromsa.
+        \n-\tNyfödd kan också ha abstinenssymptom av narkotika.</string>
+    <string name="drugsInfoText2">Anslående substans utsöndras till modersmjölk. När mamma ammar barn,
+        narkotikas anslående substans trädas till barn, vilket kan leda till nackdelar i barns utveckling.</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/page_edge_padding">
+
+        <TextView
+            android:id="@+id/productTitle"
+            style="@style/Text.Headline.Bold" />
+
+        <TextView
+            android:id="@+id/productSubTitle"
+            style="@style/Text.Body2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/page_edge_padding"
+            android:layout_marginBottom="@dimen/page_edge_padding"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:gravity="right"
+                android:text="@string/show_full_description"
+                style="@style/Text.Body1" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:checked="false"
+                android:gravity="right"
+                app:buttonTint="@color/orange"
+                app:buttonTintMode="src_in" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/productEffects"
+            style="@style/Text.Body1" />
+
+    </LinearLayout>
+</ScrollView>
