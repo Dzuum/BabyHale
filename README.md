@@ -4,9 +4,9 @@
 <h2>About</h2>
 University project made by a student group consisting of Julia Laurila, Joona Luodonpää and Maija Pienimäki. The project was commissioned by [Baby Wellness Oy](http://www.babywellness.fi/).
 
-Baby Hale is an Android application to help identifying the effects of medicines during pregnancy and breastfeeding. It is available only in Finnish and Swedish.
+Baby Hale is an Android application to help identify the effects of medicines during pregnancy and breastfeeding. It is available only in Finnish and Swedish.
 
-The application will be available in the Google Play Store soon.
+The application will soon be available in the Google Play Store.
 
 
 <h2>License</h2>
